@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
-import pdf from "../../assests/pdfs/Sivaraj.pdf";
+import pdf from "../../assests/pdfs/Sivaraj_Resume.pdf";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;

@@ -372,6 +372,26 @@ const projects = {
       ],
     },
     {
+      name: "Attendance",
+      url: "https://attendance-site.vercel.app",
+      description:
+        "Efficiently mark and track student attendance, featuring a user-friendly dashboard showcasing dynamic charts and tables for insightful attendance reports.",
+      languages: [
+        {
+          name: "Django",
+          iconifyClass: "logos-django",
+        },
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Supabase",
+          iconifyClass: "logos-supabase",
+        },
+      ],
+    },
+    {
       name: "Sky Watch",
       url: "https://skywatch.pythonanywhere.com/",
       description:
