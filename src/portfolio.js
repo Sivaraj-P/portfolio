@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "<Sivaraj P/>",
   nickname: "hrishi1999 / picleric",
   full_name: "Sivaraj Paldurai",
-  subTitle: "Backend Developer, Full Stack Enthusiast. Always learning.",
+  subTitle: "Backend Developer, Full Stack Enthusiast.",
   resumeLink: "",
   mail: "mailto:sivarajpauldurai@gmail.com",
 };
@@ -100,6 +100,13 @@ const skills = {
           },
         },
         {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
@@ -129,8 +136,10 @@ const work_exp = {
       duration: "July 2023 - Present",
       descriptions: [
         "⚡ Developed a RESTful API using Django Rest Framework, incorporating JWT sessions to ensure secure user authentication and authorization for API requests.",
-        "⚡ Optimized API response times by streamlining loop structures and refining database queries, resulting in significantly reduced latency and enhanced overall system performance.",
+        "⚡ Optimized API response times by streamlining loop structures, refining database queries, and implementedthreading for concurrent tasks, resulting in significantly reduced latency and enhanced overall system performance.",
         "⚡ Implemented advanced facial recognition capabilities through API by utilizing OpenCV and face recognition library to detect and recognize the faces.",
+        "⚡ Developed a FastApi microservice application featuring an abstract database model to ensure compatibility with any cloud databases, and successfully deployed the solution using Docker, enhancing flexibility and scalability.",
+        "⚡ Collaborated with frontend and QA teams to facilitate the seamless integration of backend services and maximizing product quality and performance.",
       ],
       website_link: "",
     },
@@ -371,7 +380,7 @@ const projects = {
         },
       ],
     },
-    
+
     {
       name: "Sky Watch",
       url: "https://skywatch.pythonanywhere.com/",
@@ -389,10 +398,32 @@ const projects = {
       ],
     },
     {
+      name: "Rathna Store",
+      url: "https://rathna-store.vercel.app",
+      description:
+        " A full stack grocery web application featuring add-to-cart functionality, Razorpay payment integration and automated email system.",
+
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Django",
+          iconifyClass: "logos-django",
+        },
+        {
+          name: "SQLite",
+          iconifyClass: "devicon-sqlite",
+        },
+      ],
+    },
+    {
       name: "Portfolio",
       url: "https://github.com/Sivaraj-P",
       description:
         "The highly customizable portfolio project. Where you have full control to showcase your skills and experience through  design elements and content. ",
+
       languages: [
         {
           name: "ReactJS",
